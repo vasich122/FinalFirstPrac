@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+
+    <Button
+        android:id="@+id/to_third_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="на 3 фрагмент"
+        android:layout_marginStart="200dp"/>
+
+    <Button
+        android:id="@+id/to_first_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="на 1 фрагмент" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/meme2"
+        android:layout_gravity="center"/>
+</FrameLayout>
